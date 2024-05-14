@@ -1,0 +1,63 @@
+@font-face {
+  font-family: abel;
+  src: url(fonts/Abel/Abel-Regular.ttf);
+}
+
+@font-face {
+  font-family: "cutive";
+  src: url("fonts/Cutive-2/Cutive-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: overtherainbow;
+  src: url("fonts/OvertheRainbow-Regular.ttf") format("ttf");
+}
+
+h1 {
+  font-family: cutive;
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-family: cutive;
+  font-size: 24px;
+}
+
+p {
+  font-family: abel;
+  font-size: 18px;
+}
+
+nav ul li a {
+  color: #162a2c;
+}
+nav ul li a:hover {
+  color: #ff7bac;
+}
+nav ul li a:active {
+  color: #ff6347;
+}
+
+.image-caption {
+  font-family: overtherainbow;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf7f2;
+}
+
+footer {
+  background-color: #d1e4ff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}

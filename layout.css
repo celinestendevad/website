@@ -1,0 +1,118 @@
+
+
+
+ 
+  /* HEADER  */
+  header {
+    color: #d1e4ff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 50px; /* Juster størrelsen efter behov */
+  }
+  .site-name {
+  margin-left: 20px; /* Tilføj en afstand til venstre for at adskille logo og sitenavn */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  margin-right: 8px;
+  color: #162a2c;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+/* Main content  */
+.hero {
+  padding: 20px;
+  text-align: center;
+}
+.hero h1 {
+  margin: 0;
+}
+section {
+  padding: 20px;
+}
+
+/* Billedet med tekst på */
+.image-container {
+  position: relative; /* Gør containeren relativt positioneret */
+}
+
+.image-caption {
+  position: absolute; /* Gør billedteksten absolut positioneret */
+  bottom: 0; /* Placer billedteksten nederst */
+  left: 0; /* Placer billedteksten til venstre */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+    ); /* Gennemsigtig sort baggrund for læselighed */
+    color: white; /* Hvid tekstfarve */
+    padding: 0px; /* Lidt polstring for bedre læsbarhed */
+    width: 100%; /* Billedteksten skal være lige bred som billedet */
+    box-sizing: border-box; /* Inkluder padding i bredden */
+  }
+  
+  .image-caption:hover {
+    background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Juster baggrundsfarven ved hover for bedre læselighed */
+}
+/* Billedet med tekst på */
+
+.image-text {
+  text-align: center;
+}
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.project-images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-images img {
+  width: calc(
+    50% - 10px
+    ); /* Sæt bredden på billederne til 50% af forælderens bredde minus margin */
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  img {
+    border-radius: 10px;
+  }
+  
+  /* VIDEOER */
+  
+  .interview_videoer {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+  
+  
